@@ -1,5 +1,6 @@
 body {
     font-family: 'Gilroy', sans-serif;
+    background-color: white;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
 }
 
 .button {
-    display: inline-block;
+    width: fit-content;
     font-size: 18px;
     line-height: 1.22;
     font-weight: 400;
@@ -25,4 +26,15 @@ body {
     line-height: 1.4;
     font-weight: 400;
     color: #000000;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+
+.align-center {
+    text-align: center;
 }

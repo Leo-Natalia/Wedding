@@ -12,7 +12,6 @@ header {
 
 .header-navigation {
     display: flex;
-    align-items: center;
 }
 
 .header-navigation a {
