@@ -60,6 +60,7 @@
     background-color: #FAFAFA;
     width: 570px;
     padding: 48px;
+    transition: all 0.3s;
 }
 
 .article-cards li:hover {
