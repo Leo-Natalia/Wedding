@@ -1,0 +1,40 @@
+body {
+    font-family: 'Gilroy', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.22;
+    font-weight: 400;
+    color: #F7941E;
+    text-transform: uppercase;
+    padding: 13px 24px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+
+.align-center {
+    text-align: center;
+}

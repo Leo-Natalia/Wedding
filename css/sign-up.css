@@ -1,0 +1,48 @@
+.sign-up {
+    background-color: #F7941E;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-bottom: 88px;
+}
+
+.sign-up-container {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-content h2 {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sign-up-content p {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+
+.sign-up-button a {
+    margin-right: 16px;
+}
+
+.sign-up-button a:last-child {
+    margin-right: 0px;
+}
+
+.button-dark-filled {
+    background-color: #231F20;
+    border: 1px solid #231F20;
+    color: white;
+}
+
+.button-dark {
+    border: 1px solid #231F20;
+    color: #231F20;
+}

@@ -1,0 +1,88 @@
+.blogs h2 {
+    margin-bottom: 23px;
+}
+
+.blogs>p {
+    margin-bottom: 71px;
+}
+
+.blogs>p::before {
+    content: "“";
+}
+
+.blogs>p::after {
+    content: "”";
+}
+
+.blogs-content {
+    background-color: #231F20;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.blogs-content img {
+    width: 400px;
+    margin-right: 100px;
+}
+
+.blogs-article {
+    width: 492px;
+}
+
+.blogs-article p {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 27px;
+}
+
+.blogs-article h3 {
+    font-size: 48px;
+    line-height: 1.21;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.text-white {
+    color: white;
+}
+
+.article-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.article-cards li {
+    background-color: #FAFAFA;
+    width: 570px;
+    padding: 48px;
+    transition: all 0.3s;
+}
+
+.article-cards li:hover {
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.article-cards h3 {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.article-cards p {
+    margin-bottom: 37px;
+}
+
+.article-cards a {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}

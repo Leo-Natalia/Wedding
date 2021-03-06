@@ -1,0 +1,62 @@
+.gifts {
+    margin-bottom: 127px;
+}
+
+.gifts h2 {
+    margin-bottom: 23px;
+}
+
+.gifts p {
+    margin-bottom: 64px;
+}
+
+.gifts p::before {
+    content: "“";
+}
+
+.gifts p::after {
+    content: "”";
+}
+
+.gifts-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gifts-cards li {
+    background-color: #FAFAFA;
+    width: 270px;
+    transition: all 0.3s;
+}
+
+.gifts-cards li:hover {
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gifts-cards img {
+    width: 100%;
+}
+
+.gifts-cards figcaption {
+    padding: 24px;
+}
+
+.gifts-cards h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 74px;
+}
+
+.gifts-cards a {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+
+.gifts-cards a::after {
+    content: " ›";
+}

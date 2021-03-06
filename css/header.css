@@ -1,0 +1,30 @@
+header {
+    background-color: #FAFAFA;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.header-navigation a {
+    font-size: 18px;
+    line-height: 1.22;
+    font-weight: 400;
+    color: #000000;
+}
+
+.header-navigation li {    
+    margin-right: 31px;
+}
+
+.header-navigation li:last-child {
+    margin-right: 0px;
+}
